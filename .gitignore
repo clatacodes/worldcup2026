@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# generated predictions + charts
+predictions/
+
+# data
+data_cache/results.csv
+
+# os junk
+.DS_Store
