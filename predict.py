@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 
 CACHE_DIR = "data_cache"
 RESULTS_URL = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
-FIXTURES_PATH = os.path.join(CACHE_DIR, "fixtures.csv")
+FIXTURES_PATH = os.path.join(CACHE_DIR, "data.csv")
 
 # normalizes the historical results.csv team names
 NAME_MAP = 
@@ -28,7 +28,7 @@ NAME_MAP =
     "Congo DR": "DR Congo", "Congo": "Republic of the Congo",
 }
 
-# maps fixtures.csv team names -> the normalized results.csv names
+# maps data.csv team names -> the normalized results.csv names
 FIXTURE_NAME_MAP =
 {
     "IR Iran": "Iran", "Korea Republic": "South Korea", "Türkiye": "Turkey",
